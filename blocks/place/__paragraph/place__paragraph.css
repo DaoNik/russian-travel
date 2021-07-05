@@ -1,0 +1,8 @@
+.place__paragraph {
+    font-size: 18px;
+    line-height: 163%;
+    justify-self: end;
+    align-self: start;
+    margin: 0;
+    margin-bottom: 27px;
+}

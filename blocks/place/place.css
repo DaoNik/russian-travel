@@ -1,0 +1,8 @@
+.place {
+    display: grid;
+    grid-template-rows: 1fr 440px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: dense;
+    row-gap: 48px;
+    column-gap: 32px;
+}
