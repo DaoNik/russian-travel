@@ -3,3 +3,10 @@
     grid-column: 2/3;
     align-self: end;
 }
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        order: -1;
+        margin: 0 16px;
+    }
+}
