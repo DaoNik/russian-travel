@@ -1,12 +1,29 @@
 .cover__overlay {
-    display: flex;
-    flex-direction: column;
     width: 100%;
+    min-height: 640px;
+    height: 62.5vw;
     background-color: rgba(42, 44, 47, .3);
+    padding: 195px 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .cover__overlay {
+        min-height: 480px;
+        padding: 115px 0;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .cover__overlay {
         min-height: 200px;
+        padding: 33px 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__overlay {
+        min-height: 740px;
+        padding: 245px 0;
     }
 }
