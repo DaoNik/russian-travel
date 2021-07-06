@@ -7,9 +7,14 @@
     margin: 0 auto 32px;
 }
 
+@media screen and (min-width: 1280px) {
+    .cover__title {
+    }
+}
+
 @media screen and (max-width: 1023px) {
     .cover__title {
-        margin: 0 auto 32px
+        margin: 0 auto 32px;
     }
 }
 
