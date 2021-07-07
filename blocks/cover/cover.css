@@ -3,7 +3,7 @@
     max-width: 1184px;
     min-height: 640px;
     height: 62.5vw;
-    background-image: url(/images/cover__background.jpg);
+    background-image: url(../../images/cover__background.jpg);
     background-size: cover;
     margin: 0 auto;
 }
