@@ -1,3 +1,7 @@
 .header__logo-link {
     align-self: center;
 }
+
+.header__logo-link:hover {
+    opacity: .8;
+}

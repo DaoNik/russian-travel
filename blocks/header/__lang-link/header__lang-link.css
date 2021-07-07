@@ -5,6 +5,10 @@
     color: #fff;
 }
 
+.header__lang-link:hover {
+    opacity: .8;
+}
+
 @media screen and (max-width: 767px) {
     .header__lang-link {
         font-size: 18px;
