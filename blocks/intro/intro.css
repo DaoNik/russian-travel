@@ -4,18 +4,14 @@
     margin-left: 48px;
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1280px) {
     .intro {
         padding-right: calc(984px - 690px);
         margin: 0 auto;
     }
 }
 
-@media screen and (min-width: 1280px) {
-    .intro {
-        margin-left: 148px;
-    }
-}
+
 
 @media screen and (max-width: 1023px) {
     .intro {
