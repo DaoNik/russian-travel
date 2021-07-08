@@ -2,8 +2,8 @@
     width: 100%;
     max-width: 1184px;
     min-height: 640px;
-    height: 62.5vw;
     background-image: url(../../images/cover__background.jpg);
+    background-position: center;
     background-size: cover;
     margin: 0 auto;
 }
@@ -23,6 +23,5 @@
 @media screen and (min-width: 1280px) {
     .cover {
         min-height: 740px;
-        height: 740px;
     }
 }
